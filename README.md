@@ -3,20 +3,20 @@
 
 在二维平面设计图中，经常会出现一些地形的异形图，在这些异形图中去排布合理的功能间和设备就显得尤其困难
 
-**例如**：! [异形轮廓图1](pictures/kitchen1.png)
-         ！[异形轮廓图2](pictures/kitchen2.png)
+**例如**：[异形轮廓图1](pictures/kitchen1.png)
+         [异形轮廓图2](pictures/kitchen2.png)
 ## 项目思路
 1. 获取异形图轮廓与实际场地的大小做出像素比的关系
 2. 将作出的图使用小正方形填充该轮廓图
 
 __以上代码逻辑__ `gen_point.py`
-效果图：! [效果图](pictures/full_square.jpg)
+效果图：[效果图](pictures/full_square.jpg)
 
 3. 使用遗传算法对以上所有小正方形进行选择优化
 
 
 __以上代码逻辑__ `hdl_square.py`
-绘制后的效果：! [效果图](pictures/result.jpg)
+绘制后的效果：[效果图](pictures/result.jpg)
 
 ---------------------------------
 ## 以上项目是一个未完成任何工程化的算法尝试，后期我在生成模块的选择优化上会进一步修改代码。仅供学习参考
